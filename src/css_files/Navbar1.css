@@ -1,0 +1,113 @@
+/* Navbar1.css */
+.two{
+  display: flex;
+  flex-direction: row;
+}
+.dropdown-toggle::after {
+  content: ''; /* Remove default arrow mark */
+}
+.navbar {
+    display: block;
+    list-style-type: none;
+   justify-content: space-between; 
+     position:fixed;  
+    /* Change to fixed */
+    top: 0px;
+    left: 0px;
+    width: 100%; /* Change to 100% */
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: gray;
+    border-radius: 6px;
+    padding: 0;
+    height: 70px;
+    display: flex;
+   margin-top: 0px; 
+   z-index: 3;
+    
+  }
+  
+  .item {
+    font-size: large;
+    margin-right: auto;  
+    /*Add this line */
+  }
+  
+  .search {
+    width: 200px;
+    height: 32px;
+    position: relative;
+    outline: none;
+    z-index: 1;
+  }
+  
+  .image {
+    width: 30px;
+    height: 31px;
+    margin-right: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .searchA {
+     display: flex; 
+    flex-direction: row; 
+    position: relative;
+    margin-left: auto;
+  }
+  .login_link{
+    text-decoration: none;
+    color: black;
+  }
+  /* buttons */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    background-color: black;
+    color: white;
+  list-style-type: none;
+    cursor: pointer;
+    border: none; /* Remove default border */
+  outline: none;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
+    overflow:hidden; /* Enable vertical scrolling */
+    max-height: 200px; /* Set maximum height to prevent overflow */
+    text-decoration: none;
+  }
+  
+  .dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; text-decoration: none;
+  }
+  
+  .dropdown-menu li {
+    padding: 5px 0;
+    cursor: pointer; text-decoration: none;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #333; /* Darken on hover */ text-decoration: none;
+  }
+  /* link styles */
+  /* Define custom styles for the link */
+.linkStyle {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+  cursor: pointer; /* Use pointer cursor */
+}
+
+
