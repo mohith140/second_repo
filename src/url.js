@@ -1,3 +1,3 @@
-const URL="http://localhost:5000"
-const IF="http://localhost:5000/images/"
+const URL="https://blog-backend-uvi4.onrender.com"
+const IF="https://blog-backend-uvi4.onrender.com"
 export {URL,IF};
